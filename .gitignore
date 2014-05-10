@@ -1,0 +1,10 @@
+# first line must not contain any rules
+# first line says dont upload folder called assets, 2ndline says upload additives folder inside assets folder 
+
+
+
+assets/*
+
+!assets/additives
+
+!.gitignore
